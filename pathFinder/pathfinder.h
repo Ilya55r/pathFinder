@@ -3,10 +3,11 @@
 #include <QThread>
 #include <QPoint>
 #include <QSize>
+#include "global.h"
 /**
  * @brief The PathFinder class искатель пути
  */
-class PathFinder : public QThread
+FINDERSHAREDLIB_EXPORT class PathFinder : public QThread
 {
     Q_OBJECT
 public:

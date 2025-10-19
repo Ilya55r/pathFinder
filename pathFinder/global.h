@@ -1,0 +1,6 @@
+#include <QtCore/QtGlobal>
+# if defined(FINDERSHAREDLIB_LIBRARY)
+# define FINDERSHAREDLIB_EXPORT Q_DECL_EXPORT
+#else
+# define FINDERSHAREDLIB_EXPORT Q_DECL_IMPORT
+#endif

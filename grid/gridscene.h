@@ -1,5 +1,5 @@
 #pragma once
-
+#include "global.h"
 #include <QGraphicsScene>
 #include <QMouseEvent>
 #include "pathitem.h"
@@ -7,7 +7,7 @@
 /**
  * @brief The GridScene class
  */
-class GridScene : public QGraphicsScene
+GRIDSHAREDLIB_EXPORT class GridScene : public QGraphicsScene
 {
     Q_OBJECT
 public:

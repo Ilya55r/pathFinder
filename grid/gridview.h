@@ -1,10 +1,10 @@
 #pragma once
+#include "global.h"
 #include <QGraphicsView>
-
 /**
  * @brief The GridView class отображение сетки
  */
-class GridView : public QGraphicsView
+GRIDSHAREDLIB_EXPORT class GridView : public QGraphicsView
 {
     Q_OBJECT
 public:
